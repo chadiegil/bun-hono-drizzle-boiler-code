@@ -1,12 +1,16 @@
 
 To install dependencies:
-```sh
-bun install
+```
+bun install 
+```
+```
+docker compose exec quizmock-backend bun install
 ```
 
+
 To run:
-```sh
-bun run dev
+```
+docker compose exec quizmock-backend bun run dev
 ```
 
 open http://localhost:3000
