@@ -8,7 +8,7 @@ async function seed()
     await db.delete( users )
 
     await db.insert( users ).values( [
-        { name: 'Ike', email: 'ike@gmail.com' },
+        { name: 'Ike', email: 'ike@gmail.com', password: 'test12345' },
     ] )
     console.log( "Seeding completed!" )
     process.exit( 0 )

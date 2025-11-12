@@ -1,5 +1,5 @@
 services:
-  quizmock-backend:
+  backend:
     build: .
     container_name: quizmock-backend
     ports:
